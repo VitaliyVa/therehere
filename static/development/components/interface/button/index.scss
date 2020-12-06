@@ -1,0 +1,50 @@
+
+
+
+
+.btn_standart {
+        transition: all .2s;
+        display: block;
+        cursor: pointer;
+        width: -moz-fit-content;
+        width: fit-content;
+        letter-spacing: normal;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 10px 25px;
+        min-width: 170px;
+        text-align: center;
+        border-radius: 3px;
+
+       
+        &_yellow {
+            color: #fff;
+            background: #D57B00;
+            border: solid 1px #D57B00;
+            &:hover {
+                border: 1px solid rgb(151, 92, 8);
+                background: rgb(151, 92, 8);
+            }
+        }
+        &_black {
+            color: #fff;
+            border: solid 1px transparent !important;
+            background: #333333;
+
+            &:hover {
+                border: solid 1px #DB1A1A !important;
+                background: #DB1A1A;
+            }
+            &_2 {
+                color: #595959;
+                border: solid 1px #595959;
+                background: transparent;
+
+                &:hover {
+                    border: solid 1px #DB1A1A;
+                    background: #DB1A1A;
+                }
+            }
+        }
+}
